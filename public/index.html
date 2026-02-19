@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Larissa Flores LTDA</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Larissa Flores</h1>
+
+      <nav>
+        <a href="#inicio">Início</a> | <a href="#contato">Fale comigo</a>
+      </nav>
+    </header>
+
+    <section id="inicio">
+      <article>
+        <h2>Bem-vindos ao meu novo site!</h2>
+
+        <div>
+          <img
+            src="https://static.vecteezy.com/ti/vetor-gratis/p1/11253094-flor-amarela-fofa-gratis-vetor.jpg"
+            alt="Imagem de exemplo"
+          />
+        </div>
+
+        <p id="mensagem">Clique no botão abaixo e veja o texto mudar.</p>
+
+        <button onclick="mudarTexto()">Clique aqui</button>
+      </article>
+    </section>
+
+    <section id="contato">
+      <article>
+        <h2>Contato</h2>
+
+        <form id="formContato">
+          <p>
+            <label>
+              Nome:<br />
+              <input id="nome" type="text" />
+            </label>
+          </p>
+
+          <p>
+            <label>
+              Email:<br />
+              <input id="email" type="email" />
+            </label>
+          </p>
+
+          <p>
+            <label>
+              Digite aqui sua mensagem:<br />
+              <input id="mensagemInput" type="text" />
+            </label>
+          </p>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </article>
+    </section>
+
+    <footer>
+      <p>Larissa Flores - 2026</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>

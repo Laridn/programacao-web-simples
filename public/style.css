@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(30, 0, 255);
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(255, 0, 187);
+}
+
+h2 {
+  margin-top: 20px;
+  color: rgb(255, 0, 187);
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+img {
+  margin-top: 10px;
+  width: 100px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 60px;
+  text-align: center;
+  color: rgb(255, 0, 187);
+}
